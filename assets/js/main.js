@@ -30,6 +30,26 @@
       else if (navWrap.hasAttribute('data-menu-open')) { setMobileMenu(false); navToggle.focus(); }
     });
     if (compactNav.addEventListener) compactNav.addEventListener('change', function () { setMobileMenu(false); });
+
+    // Desktop: "Platform" opens on hover (click and keyboard still work).
+    if (platform) {
+      var canHover = window.matchMedia('(hover:hover) and (pointer:fine)');
+      var hoverTimer, hoverOpened = false;
+      var useHover = function () { return canHover.matches && !compactNav.matches; };
+      platform.addEventListener('mouseenter', function () {
+        if (!useHover()) return;
+        clearTimeout(hoverTimer);
+        if (!platform.open) { platform.open = true; hoverOpened = true; }
+      });
+      platform.addEventListener('mouseleave', function () {
+        if (!useHover()) return;
+        hoverTimer = setTimeout(function () { platform.open = false; hoverOpened = false; }, 150);
+      });
+      platformToggle.addEventListener('click', function (e) {
+        // A click on a menu the pointer just opened keeps it open instead of closing it.
+        if (useHover() && hoverOpened) { e.preventDefault(); hoverOpened = false; }
+      });
+    }
   }
 
   // ---------------------------------------------------------------- Video popup

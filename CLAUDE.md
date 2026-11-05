@@ -32,7 +32,11 @@ Plain HTML/CSS/JS site. All pages live in the root folder as `<page>.html`. No b
 5. **Write as little page-specific CSS as possible.** Only add it for things `style.css` can't do. If the
    same page-specific rule shows up on a second page, move it into `style.css` (rule 3).
 
-6. **Keep `style-guide.html` current.** When you add or change a shared component in `style.css`, add or
+6. **Minimum font size is 13px** for every element, including product mockups, labels and SVG text.
+   Never set a smaller `font-size` (px, rem or a clamp/calc that can go below it); wrap fluid sizes as
+   `max(13px, …)`. Eyebrows are 14px.
+
+7. **Keep `style-guide.html` current.** When you add or change a shared component in `style.css`, add or
    update its example on the style guide page (noindex, linked in the nav for review).
 
 ## JS rules
@@ -56,6 +60,8 @@ Plain HTML/CSS/JS site. All pages live in the root folder as `<page>.html`. No b
 - Full `https://` URLs only for external sites, and for canonical / `og:` tags.
 
 ## SEO and GEO
+
+- Analytics: the Google tag (GA4 `G-1CHJ2WJDCV`) and HubSpot tracking are in the shared `<head>` of every page.
 
 - Every page head comes from the shared template: unique `<title>` and meta description, canonical URL,
   Open Graph and Twitter tags, and a JSON-LD `@graph` (Organization + WebSite on every page, plus WebPage /
