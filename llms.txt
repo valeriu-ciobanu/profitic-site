@@ -7,7 +7,7 @@ Key facts:
 - Product areas: idea collection, value modeling (business cases and scenarios), project prioritization, product execution, portfolio management, leadership reporting.
 - Works alongside existing tools such as Jira, Azure DevOps, Linear, Slack, Microsoft Teams, SharePoint, Google Docs and Zendesk.
 - Free trial: 30 days. Teams can start scoring ideas and tracking projects on day one; a full portfolio view within a week.
-- Customers include Hartigen, Grace Technologies and QorusDocs. Hartigen reduced its weekly idea-prioritization backlog process from about 4 hours to 10 minutes.
+- Customers include Hartigen, Grace Technologies and QorusDocs. Hartigen reduced its weekly idea-prioritization backlog prep process from about 2 hours to 10 minutes.
 
 ## Pages
 - [Home](https://profitic.com/): product overview, customer story, FAQ.
