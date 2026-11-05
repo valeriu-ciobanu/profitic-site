@@ -46,13 +46,6 @@ Plain HTML/CSS/JS site. All pages live in the root folder as `<page>.html`. No b
 - Page-specific JS goes in a `<script>` block at the end of that page's `<body>`, after the `main.js`
   include, wrapped in an IIFE `(function () { … })();` so it creates no globals.
 
-## Cache busting
-
-- Every local CSS/JS reference carries a version: `assets/css/style.css?v=<hash>`.
-- After changing any `.css` or `.js` file, run `node cache-bust.mjs` from the site folder. It updates the
-  `?v=` hash in every `.html` file (only when the file's content changed).
-- New pages: link CSS/JS normally, then run the script to add the version.
-
 ## Paths and links
 
 - Use relative paths only: `assets/...`, `index.html`, `profitic-methodology.html`. Never start a path with `/`.
