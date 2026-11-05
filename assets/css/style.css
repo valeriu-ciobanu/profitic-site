@@ -426,6 +426,19 @@ body{font-family:Poppins,"Avenir Next",Arial,sans-serif}
 /* Minimum font size is 13px site-wide (see CLAUDE.md); <small> would otherwise shrink below it */
 small{font-size:max(13px,.8333em)}
 
+/* Footer CTA (.closing-section): hero treatment, brand blue with the wavy hero lines */
+.closing-section{background:var(--blue68);color:#fff;isolation:isolate;padding-bottom:clamp(96px,9vw,128px)}
+.closing-section .closing-inner h2{color:#fff}
+.closing-section .closing-inner p{color:#fff;opacity:.9}
+.closing-section .closing-inner .eyebrow{color:#fff}
+.closing-section .status-dot{background:#fff;box-shadow:0 0 0 4px #ffffff33}
+.closing-section .hero68-lines{display:block;position:absolute;z-index:0;left:50%;bottom:6px;transform:translateX(-50%);width:100%;min-width:1000px;height:92px;color:#fff;opacity:.27;pointer-events:none}
+.closing-section .cta-trial{background:#fff;color:var(--blue68);border-color:#fff}
+.closing-section .button.cta-trial:hover{background:#efebff;border-color:#efebff;color:var(--blue68)}
+.closing-section .cta-expert{background:transparent;color:#fff;border-color:#ffffff8c}
+.closing-section .button.cta-expert:hover{background:#ffffff1a;border-color:#fff;color:#fff}
+@media(max-width:760px){.closing-section .hero68-lines{min-width:760px;height:68px;bottom:5px}}
+
 }
 
 @layer utilities {
