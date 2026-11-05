@@ -1,0 +1,21 @@
+# Profitic
+
+> Profitic is a product portfolio planning platform for product, engineering, finance and leadership teams, especially companies building industrial hardware and software. It brings ideas from every team into one place, scores them consistently, models their business case, prioritizes the portfolio against growth goals, and tracks execution so leaders can see what to build next and how it affects growth.
+
+Key facts:
+- Company: Profitic, Inc., 3420 W. Lake Sammamish Pkwy SE, Bellevue, WA 98008, USA. Contact: privacy@profitic.com, legal@profitic.com.
+- Product areas: idea collection, value modeling (business cases and scenarios), project prioritization, product execution, portfolio management, leadership reporting.
+- Works alongside existing tools such as Jira, Azure DevOps, Linear, Slack, Microsoft Teams, SharePoint, Google Docs and Zendesk.
+- Free trial: 30 days. Teams can start scoring ideas and tracking projects on day one; a full portfolio view within a week.
+- Customers include Hartigen, Grace Technologies and QorusDocs. Hartigen reduced its weekly idea-prioritization backlog process from about 4 hours to 10 minutes.
+
+## Pages
+- [Home](https://profitic.com/): product overview, customer story, FAQ.
+- [Profitic Methodology](https://profitic.com/profitic-methodology.html): a structured, repeatable decision methodology (establish the foundation, discover and centralize ideas, define/challenge/assess, make the call, prioritize, execute/review/learn).
+- [Idea Collection Trial](https://profitic.com/idea-collection-trial.html): idea collection and prioritization workflow, and how to start a free trial.
+- [Talk to an expert / demo](https://profitic.com/see-a-demo.html)
+
+## Legal
+- [Terms of Service](https://profitic.com/terms-of-service.html)
+- [Privacy Policy](https://profitic.com/privacy-policy.html)
+- [Data Processing Addendum](https://profitic.com/dpa.html)
