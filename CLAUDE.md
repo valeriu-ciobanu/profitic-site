@@ -56,7 +56,10 @@ Plain HTML/CSS/JS site. All pages live in the root folder as `<page>.html`. No b
 ## Paths and links
 
 - Use relative paths only: `assets/...`, `index.html`, `profitic-methodology.html`. Never start a path with `/`.
-- Link between pages with the `.html` file name.
+- **Clean URLs (GitHub Pages):** link between pages without `.html`: `href="see-a-demo"`, `href="./"` for
+  home, `href="./#reporting"` for a homepage section. GitHub Pages serves `/see-a-demo` from `see-a-demo.html`.
+  Canonical, `og:url`, JSON-LD, `sitemap.xml` and `llms.txt` use the same clean form
+  (`https://profitic.com/see-a-demo`, no trailing slash). Files on disk keep the `.html` extension.
 - Full `https://` URLs only for external sites, and for canonical / `og:` tags.
 
 ## SEO and GEO

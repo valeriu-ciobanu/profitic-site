@@ -11,11 +11,11 @@ Key facts:
 
 ## Pages
 - [Home](https://profitic.com/): product overview, customer story, FAQ.
-- [Profitic Methodology](https://profitic.com/profitic-methodology.html): a structured, repeatable decision methodology (establish the foundation, discover and centralize ideas, define/challenge/assess, make the call, prioritize, execute/review/learn).
-- [Idea Collection Trial](https://profitic.com/idea-collection-trial.html): idea collection and prioritization workflow, and how to start a free trial.
-- [Talk to an expert / demo](https://profitic.com/see-a-demo.html)
+- [Profitic Methodology](https://profitic.com/profitic-methodology): a structured, repeatable decision methodology (establish the foundation, discover and centralize ideas, define/challenge/assess, make the call, prioritize, execute/review/learn).
+- [Idea Collection Trial](https://profitic.com/idea-collection-trial): idea collection and prioritization workflow, and how to start a free trial.
+- [Talk to an expert / demo](https://profitic.com/see-a-demo)
 
 ## Legal
-- [Terms of Service](https://profitic.com/terms-of-service.html)
-- [Privacy Policy](https://profitic.com/privacy-policy.html)
-- [Data Processing Addendum](https://profitic.com/dpa.html)
+- [Terms of Service](https://profitic.com/terms-of-service)
+- [Privacy Policy](https://profitic.com/privacy-policy)
+- [Data Processing Addendum](https://profitic.com/dpa)
